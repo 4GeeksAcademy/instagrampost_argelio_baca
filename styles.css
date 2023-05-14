@@ -1,0 +1,174 @@
+* {
+
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 0.8vw;
+    box-sizing: content-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEDEDE;
+    flex-shrink: 5%;
+
+}
+
+.post  {
+    height: 85%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    min-width: 300px;
+    min-height: 500px;
+    flex-shrink: 5%;
+}
+
+.post-header {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.post-image {
+    position: relative;
+    width: 100%;
+    height: 55%;
+}
+
+.post-body {
+    position: relative;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo-html {
+    position: relative;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.html5-name {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dots {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-html i {
+    position: relative;
+    margin: 0;
+}
+
+#html5-p {
+    position: relative;
+    margin: 0;
+}
+
+#html5-name-p {
+    position: relative;
+    margin: 0;
+}
+
+.dots i {
+    position: relative;
+    margin: 0;
+    right: 13px;
+}
+
+.body-icons {
+    position: relative;
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.icon-left {
+    position: relative;
+    height: 100%;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-left i {
+    position: relative;
+    left: 10px;    
+}
+
+.icon-right {
+    position: relative;
+    height: 100%;
+    width: 82%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon-right i {
+    position: relative;
+    right: 10px;
+}
+
+.likes {
+    position: relative;
+    width: 100%;
+    height: 10%; 
+}
+
+.likes p {
+    word-wrap: break-word;
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.caption {
+    position: relative;
+    height: 70%;
+    width: 100%;
+}
+
+.caption p {
+    word-wrap: break-word;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
